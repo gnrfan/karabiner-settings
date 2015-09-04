@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<root>
+	<item>
+    	<name>Fix Comma in Spanish Keyboard</name>
+    	<identifier>private.fix_comma_es</identifier>
+    	<autogen>
+    		__KeyToKey__
+  			KeyCode::K, ModifierFlag::COMMAND_R,
+  			KeyCode::COMMA
+    	</autogen>
+   </item>
+  	<item>
+    	<name>Fix colon in Spanish Keyboard</name>
+    	<identifier>private.fix_semicolon_es</identifier>
+    	<autogen>
+    		__KeyToKey__
+  			KeyCode::L, ModifierFlag::COMMAND_R,
+  			KeyCode::DOT
+    	</autogen>
+  	</item>
+    <item>
+      <name>Remap RETURN</name>
+      <identifier>private.remap.return</identifier>
+      <autogen>
+        __KeyToKey__
+        KeyCode::SHIFT_R,
+        KeyCode::RETURN
+      </autogen>
+    </item>
+    <item>
+      <name>Disable RETURN</name>
+      <identifier>private.disable.return</identifier>
+      <autogen>
+        __KeyToKey__
+        KeyCode::RETURN,
+        KeyCode::VK_NONE
+      </autogen>
+    </item>
+</root>
